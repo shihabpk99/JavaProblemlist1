@@ -1,6 +1,13 @@
 public class P2_sum_of_ten_num {
     public static void main(String[] args) {
-        int sum = 0; // Initialize sum to 0
-        System.out.println("The total sum is: " + sum);
+
+          int n=0;
+         for( int i=1; i<=10; i++){
+          
+            n=n+i;
+
+         } 
+
+         System.out.println("Total: "+ n);
     }
 }
