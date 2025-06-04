@@ -12,6 +12,8 @@ double tol=0.00;
             tol=tol+(1.00/i);
         }
  System.out.println(tol);
+
+        scanner.close();
         }
 
     }
